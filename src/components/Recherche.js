@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { IoIosHeart, IoIosHeartEmpty } from "react-icons/io";
+import { NavLink } from 'react-router-dom';
 
 
 const Recherche = (props) => {
@@ -43,8 +44,11 @@ const removeFav=(idMeal)=>{
     
     return (
 
+       
+
         <li className='recherche'>
-       <img src={recette.strMealThumb} alt='photo recette'/>
+            <a href={ '/recette/'+ recette.idMeal}>
+       <img src={recette.strMealThumb} alt='photo recette'/> 
        <div className='data-container'>
 
       
@@ -68,9 +72,13 @@ const removeFav=(idMeal)=>{
               }
               </li>
 
+              
           </ul>
       </div>
+      </a>
         </li>
+       
+
     );
 
 };

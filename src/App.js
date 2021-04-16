@@ -6,12 +6,14 @@ import Home from './pages/Home';
 
 import Recette from './pages/Recette';
 
+
 function App () {
   return (
    <BrowserRouter>
    <switch>
 <Route path="/" exact component={Home}/>
 <Route path="/recette" exact component={Recette}/>
+<Route path="/recette/:id"  component={Recette}/>
 
 <Route path="/favoris"  exact component={Favoris}/>
 

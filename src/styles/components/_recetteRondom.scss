@@ -19,4 +19,19 @@
     }
   
   }
+
+  .ingredients{
+    border: 2px solid $color-1;
+    max-width: 300px;
+  }
+  .video{
+    max-width: 200px;
+    margin: auto;
+  }
+  .instruction
+  {
+    max-width: 1200px;
+    line-height: $line;
+  }
+  
   }

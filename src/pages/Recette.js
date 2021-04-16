@@ -1,7 +1,8 @@
 import React from 'react';
+import DetailsRecette from '../components/DetailsRecette';
 import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
-import RecetteRandom from '../components/RecetteRondom';
+
 
 const Recette = () => {
     return (
@@ -9,7 +10,7 @@ const Recette = () => {
 
 <Logo/> 
 <Navigation/> 
-<RecetteRandom/>          
+<DetailsRecette/>        
         </div>
     );
 };
