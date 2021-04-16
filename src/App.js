@@ -13,7 +13,7 @@ function App () {
 <Route path="/" exact component={Home}/>
 <Route path="/recette" exact component={Recette}/>
 
-<Route path="/recette/favoris" exact component={Favoris}/>
+<Route path="/favoris"  exact component={Favoris}/>
 
 
 
