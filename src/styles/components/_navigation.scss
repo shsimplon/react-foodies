@@ -20,3 +20,17 @@
       }
     }
   }
+  .searchBar{
+    position: absolute;
+    width: 500px;
+    height: 70px;
+    left: 470px;
+    top: 40px;
+
+    input,button{
+      border: pink solid 4px;
+      margin-right:4px
+    }
+    
+  
+  }

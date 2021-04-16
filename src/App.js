@@ -9,7 +9,7 @@ import Recette from './pages/Recette';
 function App () {
   return (
    <BrowserRouter>
-   <switch>
+   <Switch>
 <Route path="/" exact component={Home}/>
 <Route path="/recette" exact component={Recette}/>
 
@@ -17,7 +17,7 @@ function App () {
 
 
 
-   </switch>
+   </Switch>
    
    
    

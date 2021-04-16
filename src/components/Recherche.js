@@ -16,6 +16,8 @@ const Recherche = (props) => {
               <li>{recette.strMeal}</li>
               <li>{recette.strTags}</li>
               <li>{recette.strArea}</li>
+              
+            
 
           </ul>
       </div>
