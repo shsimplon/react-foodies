@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import Recherche from './Recherche';
+import * as AiIcons from "react-icons/ai";
 
 
 
@@ -42,11 +43,9 @@ return (
     
     
         <div className="searchBar">
-      <label for="site-search"></label>
-      <input type="text" name="searchBar" id="searchBar" placeholder="search" onChange={handlesearch}
+      <label for="site-search"> <AiIcons.AiOutlineSearch/>  </label>
+      <input type="text" name="searchBar" id="searchBar" placeholder="je recherche une recette" onChange={handlesearch}
        aria-label="Search through site content"/>
-
-     <button>Search</button>
      </div>
           
                    

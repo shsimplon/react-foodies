@@ -6,6 +6,7 @@ import Logo from './Logo';
 import ReactPlayer from 'react-player'
 
 
+
 const DetailsRecette = () => {
 
 
@@ -56,6 +57,7 @@ const DetailsRecette = () => {
         
         
         <div className='list-data'>
+            
           <h3>{recette.strMeal}</h3>
         <img src={recette.strMealThumb} alt='photo recette'/>
      

@@ -20,10 +20,10 @@ function NavBar() {
         <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
            <ul className='nav-menu-items'>
                
-               <li className="navbar-toggle">
+               <li className="navbar-toggle" onClick={sidebar}>
 
                <Link to ="#" className='menu-bars'>
-             <AiIcons.AiOutlineClose  onClick={sidebar}/></Link>
+             <AiIcons.AiOutlineClose  /></Link>
                </li>
                {SidebarData.map((item, index) => {
               return (

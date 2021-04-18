@@ -1,6 +1,6 @@
 .navigation {
     // cette classe se trouve dans le component navigation donc tous le code se trouve dedans
-    margin:15%;
+    margin:3%;
   
     a {
       margin: 10px;
@@ -17,21 +17,57 @@
         bottom: 1px;
         left: 50%;
         transform: translateX(-50%);
+
+       
       }
+     
     }
+    @media (max-width: 400px) {
+
+      display: none;
+
+                
+              }
+             
     
   }
   .searchBar{
       position: absolute;
-      width: 500px;
-      height: 70px;
+     
       left: 470px;
-      top: 40px;
+      top: 40px;  
+       border-radius:30px;
+       label{
+         color: $color-1 ;
+       }
+      
 
-      input,button{
-        border: pink solid 4px;
-        margin-right:4px
+      input{
+        border:$color-1 solid 2px;
+        margin-right:4px;
+        border-radius: 10px;
+        width: 250px;
+    height: 40px;
+     
       }
+      ::placeholder{
+        text-align: center;
+      }
+
+      @media (max-width: 750px) {
+        left: 12px;
+        top: 120px;
+        
+      }
+      
+
+
+      @media (max-width: 400px) {
+        left: 12px;
+        top: 90px;
+        
+      }
+      
       
     
     }
