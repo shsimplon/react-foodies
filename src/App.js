@@ -14,7 +14,9 @@ function App () {
 <Route path="/" exact component={Home}/>
 <Route path="/recette" exact component={Recette}/>
 <Route path="/recette/:id"  component={Recette}/>
-
+<Route path="/category/:id"  component={Home}/>
+<Route path="/pays/:idPays"  component={Home}/>
+<Route path="/ingredient/:idIng"  component={Home}/>
 <Route path="/favoris"  exact component={Favoris}/>
 
 

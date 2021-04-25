@@ -34,21 +34,20 @@
   .searchBar{
       position: absolute;
      
-      left: 470px;
+      left: 870px;
       top: 40px;  
        border-radius:30px;
-       label{
-         color: $color-1 ;
-       }
+     
+       
       
 
       input{
         border:$color-1 solid 2px;
         margin-right:4px;
         border-radius: 10px;
-        width: 250px;
+        width: 300px;
     height: 40px;
-     
+  
       }
       ::placeholder{
         text-align: center;
@@ -57,17 +56,33 @@
       @media (max-width: 750px) {
         left: 12px;
         top: 120px;
+        padding-top: 50px;
         
       }
       
 
 
       @media (max-width: 400px) {
-        left: 12px;
+        left: 10px;
         top: 90px;
-        
+        padding-top: 30px;
       }
       
       
+    
+    }
+    input{
+      border:$color-1 solid 2px;
+      margin-right:4px;
+      border-radius: 10px;
+      width: 300px;
+  height: 40px;
+  margin-top:10px;
+ 
+   
+    }
+    label{
+      color: $color-1 ;
+      margin-left: 5px;
     
     }

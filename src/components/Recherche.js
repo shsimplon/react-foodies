@@ -23,7 +23,7 @@ const addFav=(idMeal)=>{
     setFavorites([...array]);
    
     localStorage.setItem("favorites",JSON.stringify(favorites));
-    window.location.reload()
+    //window.location.reload()
     
 }
 
@@ -36,7 +36,7 @@ const removeFav=(idMeal)=>{
     }
     setFavorites([...array]);
    localStorage.setItem("favorites",JSON.stringify(favorites));
-   window.location.reload()
+   //window.location.reload()
     
 }
     
@@ -47,7 +47,7 @@ const removeFav=(idMeal)=>{
        
 
         <li className='recherche'>
-            <a href={ '/recette/'+ recette.idMeal}>
+           
        <img src={recette.strMealThumb} alt='photo recette'/> 
        <div className='data-container'>
 
@@ -56,7 +56,8 @@ const removeFav=(idMeal)=>{
 
       
           <ul>
-              <li>{recette.strMeal}</li>
+         
+              <li> <a href={ '/recette/'+ recette.idMeal}>{recette.strMeal}</a></li>
               <li>{recette.strTags}</li>
               <li>{recette.strArea}</li>
               <li>
@@ -75,7 +76,7 @@ const removeFav=(idMeal)=>{
               
           </ul>
       </div>
-      </a>
+      
         </li>
        
 
