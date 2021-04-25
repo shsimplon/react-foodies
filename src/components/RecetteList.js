@@ -26,6 +26,7 @@ axios.get("https://themealdb.com/api/json/v1/1/search.php?s")
 
 ,[]);
 console.log(data)
+// filtre par name
 
 const handlesearch = (e) =>{
         

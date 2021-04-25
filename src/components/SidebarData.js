@@ -25,6 +25,7 @@ export const SidebarData = [
   {
     title: 'Recettes par catégories',
     path: '/',
+    
     icon: <GiIcons.GiKitchenScale />,
     cName: 'nav-text'
   },
