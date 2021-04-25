@@ -1,19 +1,22 @@
 .recette-Random {
-    margin-left: 2%;
-   
-   
-  
+ 
+ 
+
     .list-data{
      
-  
-    
     padding-top: 50px;
     text-align: center;
+    line-height: $line1;
+
+   
   
+   
+    
     img {
       object-fit: cover;
       height: 200px;
       width: 260px;
+   
       
   
     }
@@ -21,20 +24,42 @@
       color:$color-1;
     }
   
-  }
-
+  
+  
+  
   .ingredients{
     border: 2px solid $color-1;
-    max-width: 300px;
+    max-width: 400px;
+    margin: auto;
+
+  
   }
   .video{
     max-width: 200px;
-    margin: auto;
+    display: flow-root;
+    padding-left: 20%;
+
+  
   }
   .instruction
   {
     max-width: 1200px;
     line-height: $line;
+    margin: auto;
+    border: 2px solid $color-1;
+    max-width: 700px;
   }
   
+  // @media (max-width: 830px) {
+  //   .video{
+  //   max-width: 50px;}
+   
+    
+  // }
+  
+   
+  
+  }
+
+
   }

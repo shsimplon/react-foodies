@@ -57,14 +57,16 @@ const DetailsRecette = () => {
         
         
         <div className='list-data'>
-            
+           
+           <span className="video">
+     <ReactPlayer url={recette.strYoutube} /></span>
           <h3>{recette.strMeal}</h3>
         <img src={recette.strMealThumb} alt='photo recette'/>
      
          
          <>            
      
-<ul>
+<ul >
              
               <li>{recette.strTags}</li>
               <li>{recette.strArea}</li>
@@ -95,8 +97,7 @@ const DetailsRecette = () => {
             <li>  {recette.strMeasure20? <span>{recette.strMeasure20}-{recette.strIngredient20}</span>: ""}</li> 
             </div>
 
-            <span className="video">
-     <ReactPlayer url={recette.strYoutube} /></span>
+          
 <h5>Etapes</h5>
             <li className= "instruction">{recette.strInstructions}</li>
 </ul>
