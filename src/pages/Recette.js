@@ -1,5 +1,6 @@
 import React from 'react';
 import DetailsRecette from '../components/DetailsRecette';
+import Footer from '../components/Footer';
 import Logo from '../components/Logo';
 import NavBar from '../components/NavBar';
 import Navigation from '../components/Navigation';
@@ -13,7 +14,8 @@ const Recette = () => {
 <Logo/>  
 <NavBar/>
 <Navigation/> 
-<DetailsRecette/>        
+<DetailsRecette/>      
+<Footer/>
         </div>
     );
 };

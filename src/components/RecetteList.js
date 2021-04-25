@@ -83,7 +83,7 @@ const handlesearch = (e) =>{
 
 
 
-
+// recherche par categorie
 
  const handleChange=(e)=>{
  
@@ -120,9 +120,7 @@ return (
      </div>
      
     
-     {/* <Select options={options}  onChange={handleChange.bind(this)} placeholder="Choisir une Categorie"/>
-     <Select options={optionsPays}  onChange={handleChangePays.bind(this)} placeholder="Choisir une Recette par Pays" />
-     <Select options={optionsIng}  onChange={handleChangeIng.bind(this)} placeholder="Choisir un Ingredient" /> */}
+    
    
      {/* <div id="category">
         {CategoryData.map(key=>

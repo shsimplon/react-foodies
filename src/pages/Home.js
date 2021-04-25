@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 
 import Logo from '../components/Logo';
 import NavBar from '../components/NavBar';
@@ -15,6 +16,7 @@ const Home = () => {
 <Navigation/> 
 
 <RecetteList/>
+<Footer/>
 
  
         </div>

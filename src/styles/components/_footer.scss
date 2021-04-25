@@ -1,0 +1,30 @@
+.footer{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color:$color-1;
+   
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    a {
+      margin: 10px;
+      padding: 10px;
+      position: relative;
+    }
+    .nav-active {
+      &::after {
+        content: "";
+        width: 85%;
+        height: 5px;
+        background: $color-1;
+        position: absolute;
+        bottom: 1px;
+        left: 50%;
+        transform: translateX(-50%);
+
+       
+      }
+     
+    }
+  }
