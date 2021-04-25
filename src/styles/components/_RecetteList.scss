@@ -7,3 +7,13 @@
       flex-wrap: wrap;
     }
   }
+#category{
+  display: flex;
+  justify-content: space-between;
+  a{
+    color: $color-1;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
